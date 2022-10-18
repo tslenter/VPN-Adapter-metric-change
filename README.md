@@ -9,6 +9,8 @@ $max_retry = seconds
 $wait_timer_for_retry = max retry's
 ```
 
+Culculation for agression: $max_retry * $wait_timer_for_retry = maximum seconds before exit
+
 Example:
 
 ```
