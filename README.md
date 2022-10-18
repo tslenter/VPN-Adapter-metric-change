@@ -1,5 +1,3 @@
-Problem: wrong DNS server is selected for VPN split tunnel. Lowering the metric on the VPN adapter solves this problem.
-
 # VPN-Adapter-metric-change
 Change VPN adapter metric using PowerShell
 
@@ -22,3 +20,6 @@ $wait_timer_for_retry = 2
 ```
 
 The next step is to schedule the APM_metric.ps1 script for login.
+
+# Solved problem
+Problem: wrong DNS server is selected for VPN split tunnel. Lowering the metric on the VPN adapter solves this problem.
