@@ -1,3 +1,5 @@
+Problem: wrong DNS server is selected for VPN split tunnel. Lowering the metric on the VPN adapter solves this problem.
+
 # VPN-Adapter-metric-change
 Change VPN adapter metric using PowerShell
 
