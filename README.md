@@ -17,4 +17,4 @@ $max_retry = 10
 $wait_timer_for_retry = 2
 ```
 
-The next step is to schedule the script for login.
+The next step is to schedule the APM_metric.ps1 script for login.
